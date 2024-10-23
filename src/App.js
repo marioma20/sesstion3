@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+// import Welcome from './Component/Welcome';
+// import Gaest from './Component/Gaest';
+// import List from './Component/List';
+import Productlist from './Component/Product_list';
 
 function App() {
+
+  // const [isLoggedin, set_isLoggedin] = useState(false);
+  // let element;
+
+  // let element =   isLoggedin ? <h1>i am logged in</h1> : <h2>i am not logged in</h2> ;
+
+  // if(isLoggedin){
+  //    element = <h1>i am logged in</h1>
+  // }else{
+  //   element = <h1>i am not logged in</h1>
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    // {/* //   <button onClick={()=>{ */}
+    // {/* //       set_isLoggedin(true); */}
+    // {/* //   }}>logg in</button> */}
+    // {/* {isLoggedin ? <h1>i am logged in</h1> : <h2>i am not logged in</h2>} ; */}
+    // {/* {isLoggedin ? <Welcome name="nader"/> : <Gaest/>} */}
+    // {/* //   {isLoggedin ? <Welcome name="nader"/> : null} */}
+    // {/* //      {element} */}
+    // {/* //      <List/> */}
+    ///////////////////////////////
+    <Productlist/>
+    //////////////////////////
+    // route test kims code
+
+    // </div>
   );
 }
 

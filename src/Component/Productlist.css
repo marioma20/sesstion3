@@ -1,0 +1,14 @@
+
+
+.product-list{
+    width: 85%;
+    margin: auto;
+    text-transform: capitalize;
+}
+.product-list h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
